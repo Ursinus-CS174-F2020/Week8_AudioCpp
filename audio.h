@@ -28,6 +28,7 @@ typedef struct  WAV_HEADER
     /* "data" sub-chunk */
     uint8_t         Subchunk2ID[4]; // "data"  string
     uint32_t        Subchunk2Size;  // Sampled data length
+    uint8_t        FLEX[40]; // Flex at the end
 } wav_hdr;
 
 #define AUDIO_CHUNK_SIZE 1024
