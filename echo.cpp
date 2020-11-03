@@ -1,9 +1,6 @@
-#include "stdio.h"
+#include <stdio.h>
+#include <stdlib.h>
 #include "audio.h"
-#include <iostream>
-#include <string>
-#include <fstream>
-#include <cstdint>
 
 /**
  * @param x The original audio
